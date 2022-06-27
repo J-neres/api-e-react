@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function Index() {
+    
 
     const [nome, setNome] = useState('');
     return(
@@ -16,3 +17,4 @@ export default function Index() {
         </main>
     )
 }
+
