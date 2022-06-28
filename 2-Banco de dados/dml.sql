@@ -1,9 +1,5 @@
-USE PetsDB;
+use animalpet;
 
-INSERT INTO tb_pet (nm_pet)
-            values ('Apollo');
-
-
-
-select * from tb_pet 
+insert into tnb_animais(nm_pet)
+	values('Nega');
 

@@ -2,10 +2,11 @@ import { con } from './connection.js'
 
 export async function cadastrarPet (nome) {
     const cmd = `
-    insert into tb_pet (nm_pet)
-            values (?)`
+    insert into tnb_animais(nm_pet)
+	        values('Nega');`
 
-    const [ linhas ] = await (await con).query(cmd, [ nome ])
+    const [ linhas ] = await (await con).query(cmd, [ nome ]);
+    /*nome.id = linhas.insertId*/
     return linhas; 
     
 }
