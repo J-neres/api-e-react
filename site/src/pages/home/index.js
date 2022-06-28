@@ -2,8 +2,8 @@ import { useState } from "react";
 
 export default function Index() {
 
-    async function cadstrarPet(pet) {
-        const resp = 
+    async function cadastrarPet(pet) {
+        const resp = await
     }
 
 
